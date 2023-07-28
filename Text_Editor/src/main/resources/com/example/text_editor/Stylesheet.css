@@ -1,0 +1,156 @@
+
+.master-pane {
+    -fx-background-color: #2F343F;
+}
+
+
+
+}
+
+
+.menu .label {
+    -fx-text-fill: #D1D6C5;
+}
+
+menu-bar:hover, .menu-item:hover{
+    -fx-background-color: #404552;
+}
+
+.menu-bar {
+    -fx-background-color: #2F343F;
+    -fx-font-size: 16;
+    -fx-font-family: "Consolas";
+}
+
+
+/*.text-area .content {
+    -fx-background-color: #393939
+
+}
+*/
+/*TODO right clicking on textArea didn't have the desired CSS effect, figure out why and replace this template
+
+/*
+ * https://stackoverflow.com/questions/12299162/how-to-style-menu-button-and-menu-items
+ * credit to Markus Weninger on stackOverflow for this template
+ * https://stackoverflow.com/users/2938364/markus-weninger
+ */
+
+/*********************************************************************************************/
+
+
+/* VARIABLE DEFINITIONS: Only these 4 variables have to be adjusted, the rest is copy-paste */
+* {
+    -fx-my-menu-color: #2F343F;                /* Change according to your needs */
+    -fx-my-menu-color-highlighted: #404552;     /* Change according to your needs */
+    -fx-my-menu-font-color: #D1D6C5;           /* Change according to your needs */
+    -fx-my-menu-font-color-highlighted: #D1D6C5; /* Change according to your needs */
+}
+
+
+/*** Top-level menu itself (not selected / hovered) ***/
+.menu-bar > .container > .menu-button {
+    -fx-background-color: -fx-my-menu-color;
+}
+
+/*** Top-level menu's label (not selected / hovered) ***/
+.menu-bar > .container > .menu-button > .label {
+    -fx-text-fill: -fx-my-menu-font-color;
+}
+
+/*** Top-level menu's label (disabled) ***/
+.menu-bar > .container > .menu-button > .label:disabled {
+     -fx-opacity: 1.0;
+ }
+
+/*** Top-level menu itself (selected / hovered) ***/
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: -fx-my-menu-color-highlighted;
+}
+
+/*** Top-level menu's label (selected / hovered) ***/
+.menu-bar > .container > .menu-button:hover > .label,
+.menu-bar > .container > .menu-button:focused > .label,
+.menu-bar > .container > .menu-button:showing > .label {
+    -fx-text-fill: -fx-my-menu-font-color-highlighted;
+}
+
+/* MENU ITEM (children of a MENU BUTTON) */
+/*** The item itself (not hovered / focused) ***/
+.menu-item {
+    -fx-background-color: -fx-my-menu-color;
+}
+
+/*** The item's label (not hovered / focused) ***/
+.menu-item .label {
+    -fx-text-fill: -fx-my-menu-font-color;
+}
+
+/*** The item's label (disabled) ***/
+.menu-item .label:disabled {
+    -fx-opacity: 1.0;
+}
+
+/*** The item itself (hovered / focused) ***/
+.menu-item:focused, .menu-item:hovered {
+    -fx-background-color: -fx-my-menu-color-highlighted;
+}
+
+/*** The item's label (hovered / focused) ***/
+.menu-item:focused .label, .menu-item:hovered .label {
+    -fx-text-fill: -fx-my-menu-font-color-highlighted;
+}
+
+/* CONTEXT MENU */
+/*** The context menu that contains a menu's menu items ***/
+.context-menu {
+    -fx-background-color: -fx-my-menu-color;
+}
+
+.toggle-button{
+    -fx-background-color: rgb(240,240,240);
+    -fx-text-fill: black;
+}
+.toggle-button:selected {
+    -fx-background-color: #000080;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: rgb(240,240,240);
+    -fx-text-fill: black;
+}
+.button:focused {
+    -fx-background-color: #000080;
+    -fx-text-fill: white;
+}
+
+.text-area-underline-text .text {
+    -fx-underline: true ;
+}
+
+.text-area-left .text{
+    -fx-text-alignment: left;
+}
+
+.text-area-center .text{
+    -fx-text-alignment: center;
+}
+
+.text-area-right .text{
+    -fx-text-alignment: right;
+}
+
+.text-area-justify .text{
+    -fx-text-alignment: justify;
+}
+
+.text-area-bold-text  {
+    -fx-font-weight: bold;
+}
+
+.text-area-italic-text  {
+    -fx-font-style: italic;
+}

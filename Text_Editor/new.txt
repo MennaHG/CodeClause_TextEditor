@@ -1,0 +1,24 @@
+reactive: developing for all variations. Investment risk if future dont aligb with assumed reqs
+proactive: if reuse opportunity arises caan be costly if no inital baseline is available
+extractive: reuses some operationall software products to make inital baseline. if orh hav expertise and artifacts in domain
+
+Factors: Legal ,managerial,economic,technicnal
+
+- Sucess Factors: ensure management undeestand reuse, develop software by product line approach, support reuse by tools, perform domain modelling of reusable comps
+
+- Domain Analysis: define related products from the very begining of SWD process.
+
+- Product families: product-based dev to  product-line dev
+- FODA to define commonality and variablity
+reactive: developing for all variations. Investment risk if future dont aligb with assumed reqs
+proactive: if reuse opportunity arises caan be costly if no inital baseline is available
+extractive: reuses some operationall software products to make inital baseline. if orh hav expertise and artifacts in domain
+
+Factors: Legal ,managerial,economic,technicnal
+
+- Sucess Factors: ensure management undeestand reuse, develop software by product line approach, support reuse by tools, perform domain modelling of reusable comps
+
+- Domain Analysis: define related products from the very begining of SWD process.
+
+- Product families: product-based dev to  product-line dev
+- FODA to define commonality and variablity
